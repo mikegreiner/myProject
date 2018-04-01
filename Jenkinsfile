@@ -1,6 +1,7 @@
 pipeline {
   agent { label 'linux' }
   tools {
+    java 'Java8'
     maven 'M3'
   }
   stages {
